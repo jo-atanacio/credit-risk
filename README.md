@@ -1,27 +1,17 @@
 # Credit Risk Modeling using Machine Learning
 
 ## Aim:
-The main aim of the project is to learn about Credit Risk Modeling by predicting different parameters: Probabilty of Default (PD), Loss Given Default (LGD) and Expected Loss (EL). This will be achieve by using supervised machine learning in Python.
-
-The equation for EL is given as:
-
-** EL = PD x LGD x Loan Amount*
-
-Once we have the probabilties of default we will then model Expected Loss using an assumed LGD of 1 (a LGD of 1 is a conservative assumption given the unsecured nature of the loans) 
+The main aim of the project is to learn about Credit Risk Modeling by predicting different parameters: Probabilty of Default (PD), and Loss Given Default (LGD). This will be achieve by using supervised machine learning in Python.
 
 <pre>
 ├── Data
-│    ├── LCDataDictionary.xlsx (List of all features of dataset)
-│    ├── loan_data_07_18.csv
+│    ├── working_data.parquet (Processed dataset)
+│    ├── loan_data_07_18.csv (Download from Kaggle Source and add it here)
 ├── Notebooks
-│    ├── eda_basic_processing.ipynb
-│    ├── processing
-│    ├── pd_processing.ipynb (Preprocessing for PD model)
-│         ├── lgd_processing.ipynb (Preprocessing for LGD & EAG)
-│    ├── modeling
-│         ├── pd_modeling.ipynb (Modeling PD and Score card)
-│         ├── lgd_modeling.ipynb (Modeling LGD & EAD i.e training models)
-│         ├── expectedloss.ipynb (Calculating expected loss)
+│    ├── eda.ipynb
+│    ├── preprocess.ipynb 
+│    ├── pd.ipynb (Probability of Default)
+│    ├── lgd.ipynb (Loss Given Default)
 </pre>
 
 ## Dataset:
