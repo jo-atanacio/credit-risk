@@ -5,13 +5,18 @@ The main aim of the project is to learn about Credit Risk Modeling by predicting
 
 <pre>
 ├── Data
-│    ├── working_data.parquet (Processed dataset)
+│    ├── working_data_pd.parquet (Processed dataset for PD)
+│    ├── working_data_lgd.parquet (Processed dataset for PD)
 │    ├── loan_data_07_18.csv (Download from Kaggle Source and add it here)
 ├── Notebooks
-│    ├── eda.ipynb
-│    ├── preprocess.ipynb 
-│    ├── pd.ipynb (Probability of Default)
-│    ├── lgd.ipynb (Loss Given Default)
+│    ├── eda.ipynb (exploratory data analysis)
+│    ├── processing
+│         ├── preprocess.ipynb
+│         ├── lgd_preprocess.ipynb
+│    ├── pd.ipynb (Modeling of Probability of Default)
+│    ├── lgd.ipynb (Modeling of Loss Given Default)
+├── Models
+│    ├── model_pd.sav
 </pre>
 
 ## Dataset:
